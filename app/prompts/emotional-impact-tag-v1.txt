@@ -1,0 +1,93 @@
+Analyze the given news article headline and categorize its emotional impact using the specified tags.  
+
+You must designate exactly one PRIMARY TAG (the single strongest emotional impact) and up to two OPTIONAL SECONDARY TAGS (additional strong impacts, if any).  
+
+# Emotional Impact Tags
+
+{emotional_impact_tags_list}
+
+# Steps
+
+1. **Headline Analysis**  
+   - Read and interpret the headline to understand the core subject matter and how it might affect a reader emotionally.
+
+2. **Primary Tag Selection**  
+   - Identify one tag that best represents the single strongest emotional response elicited by the headline.  
+   - If no tags apply, default to the single tag that is most closely aligned with any possible reaction (or “Confusion / Uncertainty” if truly unclear).
+
+3. **Secondary Tag Selection** (optional)  
+   - If one or two additional tags also strongly apply—i.e., they would likely resonate with many readers—list them here.  
+   - If in doubt, do not include secondary tags. Never include more than two secondary tags.
+
+4. **Reasoning**  
+   - Briefly explain, for each selected tag (primary and secondary), the elements in the headline that support its emotional impact. 
+   - Keep this explanation concise.
+
+5. **Classification**  
+   - Format your final answer in valid JSON with fields “primary_tag” and “secondary_tags.”  
+   - Example output:  
+     ```json
+     {{
+       "primary_tag": "Anger / Outrage",
+       "secondary_tags": ["Cynicism / Distrust"]
+     }}
+     ```
+
+# Examples
+
+## Example 1
+**Headline**: "Local Shelter Saves Dozens of Abandoned Puppies with Community Effort"
+
+**Reasoning**:  
+  - Primary Tag: **Compassion / Empathy** (the community’s rescue effort and focus on puppies can evoke empathy)  
+  - Secondary Tag: **Uplifting / Inspiring** (successful outcome provides a positive, uplifting feeling)  
+
+**Output**:
+```json
+{{
+  "primary_tag": "Compassion / Empathy",
+  "secondary_tags": ["Uplifting / Inspiring"]
+}}
+```
+
+## Example 2
+
+Headline: “Government Scandal Unveils Extensive Misuse of Public Funds”
+
+**Reasoning**:  
+  - Primary Tag: **Anger / Outrage** (misuse of public funds provokes a sense of injustice)
+  - Secondary Tags: **Cynicism / Distrust** (erodes trust in government) and **Frustration / Helplessness** (feeling powerless to effect change)
+
+**Output**:
+```json
+{{
+  "primary_tag": "Anger / Outrage",
+  "secondary_tags": ["Cynicism / Distrust", "Frustration / Helplessness"]
+}}
+```
+
+## Example 3
+
+Headline: “Small Town’s Last Factory Closes After 80 Years”
+
+**Reasoning**:
+  - Primary Tag: **Sadness / Grief** (loss of jobs and tradition)
+  - Secondary Tag: **Nostalgia / Loss of Past** (the end of a longstanding era)
+
+**Output**:
+```json
+{{
+  "primary_tag": "Sadness / Grief",
+  "secondary_tags": ["Nostalgia / Loss of Past"]
+}}
+```
+
+# Notes
+  - Strictly adhere to one primary tag, and up to two secondary tags only if strongly applicable.
+  - Use exact tag names from the provided list of emotional impact tags.
+  - If no secondary tag strongly applies, leave “secondary_tags” empty.
+  - Return your final classification in valid JSON format as shown.
+
+# Input
+
+Headline: {headline}

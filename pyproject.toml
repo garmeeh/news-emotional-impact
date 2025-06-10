@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "news-sentiment"
+version = "0.1.0"
+description = ""
+authors = ["Gary Meehan <garymeehan@outlook.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.13"
+supabase = "2.15.2"
+pydantic-settings = "^2.7.0"
+asyncio = "^3.4.3"
+feedparser = "^6.0.11"
+beautifulsoup4 = "^4.12.3"
+langchain-core = "^0.3.28"
+langgraph = "^0.2.62"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.3.18"
+langchain-anthropic = "^0.3.4"
+langchain-google-genai = "^2.1.5"
+pandas = "^2.2.3"
+types-beautifulsoup4 = "^4.12.0.20250516"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.14.0"
+pydantic = ">=2.9,<2.10"
+ipdb = "^0.13.13"
+ruff = "^0.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

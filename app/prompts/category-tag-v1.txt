@@ -1,0 +1,76 @@
+Analyze the given news article headline and description to determine a primary category (the single best match) and up to two optional secondary categories, if strongly relevant.
+
+## Topic Tags & Guidelines
+
+{category_tags_list}
+
+# Steps
+
+1. **Read and Understand**  
+   - Carefully read the headline and description to capture the main topic or focus of the article.
+
+2. **Primary Tag Selection**  
+   - Choose exactly one tag that best categorizes the article’s core theme.
+   - If no tags apply, choose the single closest match.
+
+3. **Secondary Tag Selection** (Optional)  
+   - If one or two other tags strongly apply, include them as secondary tags.
+   - Never include more than two secondary tags.
+   - If in doubt, stick with only the primary tag.
+
+4. **Formatting**  
+   - Return a JSON object with two fields: `"primary_tag"` and `"secondary_tags"`.
+   - Example:
+     ```json
+     {{
+       "primary_tag": "<SINGLE MOST APPROPRIATE TAG>",
+       "secondary_tags": ["<OPTIONAL TAG 1>", "<OPTIONAL TAG 2>"]
+     }}
+     ```
+   - Do not add extra keys.
+
+# Examples
+
+## Example 1
+**Headline**: "Inflation Hits New High, Worsening Cost of Living for Families"  
+**Description**: "Families struggle to cope with escalating prices due to a sudden rise in inflation rates."
+
+**Reasoning**:  
+- Primary tag: **Cost of Living** (the article specifically addresses families’ financial burden).  
+- Secondary tag: **Financial Markets & Investments** (there is a broader economic impact, albeit secondary).
+
+**Final Output**:
+```json
+{{
+  "primary_tag": "Cost of Living",
+  "secondary_tags": ["Financial Markets & Investments"]
+}}
+```
+
+## Example 2
+**Headline**: “Historic Summit Strengthens International Trade Relations”
+**Description**: “World leaders convened to forge new trade agreements, boosting global economic cooperation.”
+
+**Reasoning**:
+- Primary tag: **Diplomacy & International Relations** (core focus is world leaders collaborating).
+- Secondary tag: **Trade & Exports** (the summit centers on new trade agreements).
+
+**Final Output**:
+```json
+{{
+  "primary_tag": "Diplomacy & International Relations",
+  "secondary_tags": ["Trade & Exports"]
+}}
+```
+
+# Notes
+
+- Select more than one tag only when there is a “very high match” for each.
+- If the article seems to fit only one tag, do not add secondary tags.
+- Keep the JSON structure exactly as shown—no extra fields or formatting.
+- Only include tags from the provided list of topic tags.
+
+# Input
+
+Headline: {headline}
+Description: {description}

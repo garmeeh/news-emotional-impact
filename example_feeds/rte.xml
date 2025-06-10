@@ -1,0 +1,34 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>News Headlines</title>
+		<link>https://www.rte.ie/news/</link>
+		<description/>
+		<atom:link href="https://www.rte.ie/feeds/rss/?index=/news" rel="self"/>
+		<language>en-ie</language>
+		<copyright>RTÉ 2024-RTÉ Commercial Enterprises Ltd, Registration No: 155076, Donnybrook, Dublin 4, Ireland.</copyright>
+		<lastBuildDate>Mon, 23 Dec 2024 22:55:49 +0000</lastBuildDate>
+		<item>
+			<title>Man, 40s, questioned after fatal hit-and-run in Limerick</title>
+			<link>https://www.rte.ie/news/2024/1223/1487917-rathkeale-limerick/</link>
+			<description>A man in his 40s is continuing to be questioned by gardaí investigating a fatal hit-and-run incident in Co Limerick at the weekend.</description>
+			<pubDate>Mon, 23 Dec 2024 12:11:55 +0000</pubDate>
+			<guid>https://www.rte.ie/news/2024/1223/1487917-rathkeale-limerick/</guid>
+			<category>Ireland</category>
+			<media:content height="450" type="image/jpeg" url="https://img.rasset.ie/00219de7-800.jpg" width="800"/>
+		</item>
+		<item>
+			<title>Tributes paid to man killed after car entered Grand Canal</title>
+			<link>https://www.rte.ie/news/2024/1223/1487896-kildare-rtc/</link>
+			<description>Tributes have been paid to a man who died after the car he was driving entered the Grand Canal in Co Kildare.</description>
+			<pubDate>Mon, 23 Dec 2024 10:14:18 +0000</pubDate>
+			<guid>https://www.rte.ie/news/2024/1223/1487896-kildare-rtc/</guid>
+			<category>Leinster</category>
+			<media:content height="450" type="image/jpeg" url="https://img.rasset.ie/00219db9-800.jpg" width="800"/>
+		</item>
+	</channel>
+</rss>

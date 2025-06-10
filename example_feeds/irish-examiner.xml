@@ -1,0 +1,53 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed
+	xmlns="http://www.w3.org/2005/Atom">
+	<id>https://www.irishexaminer.com/</id>
+	<title>IrishExaminer.com</title>
+	<updated>Mon, 23 Dec 2024 23:30:18 +0000</updated>
+	<rights>Examiner Group</rights>
+	<subtitle>Ireland's premier breaking news website providing up to the minute news and sports reports. With e-mail news releases following breaking stories throughout the day.</subtitle>
+	<link rel="self" href="https://www.irishexaminer.com/feed/35-top_news.xml"/>
+	<entry>
+		<id>https://www.irishexaminer.com/news/munster/arid-41542216.html</id>
+		<title>Man arrested in connection with fatal hit-and-run in Limerick </title>
+		<published>2024-12-23T12:19:00+00:00</published>
+		<updated>2024-12-23T12:19:00+00:00</updated>
+		<author>
+			<name>Irishexaminer.com</name>
+			<email>digitaldesk@irishexaminer.com</email>
+			<uri>https://www.irishexaminer.com/</uri>
+		</author>
+		<link href="https://www.irishexaminer.com/news/munster/arid-41542216.html" rel="alternate"/>
+		<summary>Marguerita Sheridan, a mother of one, was killed in the incident in Rathkeale on Saturday</summary>
+		<content>Marguerita Sheridan, a mother of one, was killed in the incident in Rathkeale on Saturday</content>
+		<category term="ie-main"/>
+		<link href="https://www.irishexaminer.com/cms_media/module_img/8867/4433869_15_articlelarge_407172507_1084301542706674_1185945990634678688_n.jpg" rel="enclosure" type="image/jpeg"/>
+		<contributor>
+			<name>Examiner Group</name>
+			<email>digitaldesk@irishexaminer.com</email>
+			<uri>https://www.irishexaminer.com/</uri>
+		</contributor>
+	</entry>
+	<entry>
+		<id>https://www.irishexaminer.com/news/munster/arid-41538452.html</id>
+		<title>&#039;No turkeys this year&#039; for certain Limerick customers as Mary shuts up shop</title>
+		<published>2024-12-23T18:00:00+00:00</published>
+		<updated>2024-12-23T18:00:00+00:00</updated>
+		<author>
+			<name>Irishexaminer.com</name>
+			<email>digitaldesk@irishexaminer.com</email>
+			<uri>https://www.irishexaminer.com/</uri>
+		</author>
+		<link href="https://www.irishexaminer.com/news/munster/arid-41538452.html" rel="alternate"/>
+		<summary>Mary Breen, who has for over 40 years reared free range turkeys at Cullen, has decided to call it a day</summary>
+		<content>Mary Breen, who has for over 40 years reared free range turkeys at Cullen, has decided to call it a day</content>
+		<category term="ie-main"/>
+		<link href="https://www.irishexaminer.com/cms_media/module_img/8854/4427141_13_articlelarge_Mary_20Breen_20Turkeys_20Cullen_20011.jpg" rel="enclosure" type="image/jpeg"/>
+		<contributor>
+			<name>Examiner Group</name>
+			<email>digitaldesk@irishexaminer.com</email>
+			<uri>https://www.irishexaminer.com/</uri>
+		</contributor>
+	</entry>
+</feed>

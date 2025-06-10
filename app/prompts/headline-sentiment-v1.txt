@@ -1,0 +1,56 @@
+Analyze the sentiment of a given news article headline by assigning one category from the following set: 
+
+{categories}
+
+Assign a confidence score to your analysis.
+
+# Steps
+
+1. **Analyze the Headline**: Examine the words and structure of the headline to determine its overall tone.
+2. **Determine Sentiment**: Choose the most appropriate sentiment category ({categories}).
+3. **Confidence Score**: Assign a confidence score between 0 to 100, indicating how sure you are about your analysis.
+
+Analyze the sentiment of a given news article headline by assigning one of the provided categories. 
+
+# Steps
+
+1. **Analyze the Headline**: Examine the words and structure of the headline to determine its overall tone.
+2. **Determine Sentiment**: Choose the most appropriate sentiment category
+3. **Confidence Score**: Assign a confidence score between 0 to 100, indicating how sure you are about your analysis.
+
+# Examples
+
+1. "Company profits soar to record heights"
+   - Sentiment: Very Positive
+   - Confidence: 90
+   Reason: Contains strongly positive words ("soar", "record") and indicates financial success
+
+2. "Scientists raise concerns over new medication"
+   - Sentiment: Negative
+   - Confidence: 80
+   Reason: "Concerns" indicates problems or issues, suggesting negative implications
+
+3. "Local council schedules monthly meeting"
+   - Sentiment: Neutral
+   - Confidence: 95
+   Reason: Purely factual statement without emotional content
+
+4. "Devastating earthquake leaves thousands homeless"
+   - Sentiment: Very Negative
+   - Confidence: 95
+   Reason: Contains explicitly negative words ("devastating") and describes tragic outcome
+
+5. "Small improvements noted in economic indicators"
+   - Sentiment: Positive
+   - Confidence: 75
+   Reason: Shows progress but modest scope ("small") reduces confidence and intensity
+
+# Notes
+
+- Carefully consider emotional cues within the headline, such as adjectives and verbs that convey sentiment.
+- If the sentiment is unclear, the 'Neutral' category can be used.
+
+
+# Input
+
+Headline: {headline}

@@ -1,0 +1,55 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:media="http://search.yahoo.com/mrss/"
+                  >
+	<channel>
+		<title>
+			<![CDATA[TheJournal.ie]]>
+		</title>
+		<link>https://www.thejournal.ie/</link>
+		<description>
+			<![CDATA[Ireland's Internet Newspaper]]>
+		</description>
+		<atom:link href="https://www.thejournal.ie/feed/"  rel="self"  type="application/rss+xml" />
+		<lastBuildDate>Mon, 23 Dec 2024 23:22:30 +0000</lastBuildDate>
+		<language>en</language>
+		<item>
+			<title>
+				<![CDATA['If our industry fails, this country fails': Hauliers call for subsidy amid ongoing Holyhead Port closure]]>
+			</title>
+			<link>https://www.thejournal.ie/holyhead-port-hauliers-call-for-subsidy-6579783-Dec2024/</link>
+			<comments>https://www.thejournal.ie/holyhead-port-hauliers-call-for-subsidy-6579783-Dec2024/#comments</comments>
+			<pubDate>Mon, 23 Dec 2024 17:30:00 +0000</pubDate>
+			<description>
+				<![CDATA[Irish Road Haulage Association president Ger Hyland said some haulage companies risk going out of business unless they receive support. ]]>
+			</description>
+			<media:thumbnail url="https://c1.thejournal.ie/media/2024/12/featureimage-411cc09b-4a87-4531-9ee1-70f69061a40e-230x150.jpg"  height="150"  width="230" />
+			<media:content url="https://c1.thejournal.ie/media/2024/12/featureimage-411cc09b-4a87-4531-9ee1-70f69061a40e-630x420.jpg"  height="420"  width="630"  medium="image" />
+			<guid>https://jrnl.ie/6579783</guid>
+			<category>
+				<![CDATA[Irish Road Haulage Association]]>
+			</category>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Person of interest comes forward after man hospitalised following Dublin hit-and-run]]>
+			</title>
+			<link>https://www.thejournal.ie/man-hospitalised-dublin-hit-and-run-6579709-Dec2024/</link>
+			<comments>https://www.thejournal.ie/man-hospitalised-dublin-hit-and-run-6579709-Dec2024/#comments</comments>
+			<pubDate>Mon, 23 Dec 2024 14:58:00 +0000</pubDate>
+			<description>
+				<![CDATA[The man was taken to St. James’ Hospital, where his injuries are understood to be serious.]]>
+			</description>
+			<media:thumbnail url="https://c3.thejournal.ie/media/2024/12/garda-road-closed-sign-5434464c-df0b-4adc-aeb7-3a09eef2c4b9-230x150.jpg"  height="150"  width="230" />
+			<media:content url="https://c3.thejournal.ie/media/2024/12/garda-road-closed-sign-5434464c-df0b-4adc-aeb7-3a09eef2c4b9-630x418.jpg"  height="418"  width="630"  medium="image" />
+			<guid>https://jrnl.ie/6579709</guid>
+			<category>
+				<![CDATA[Witness appeal]]>
+			</category>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,51 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>Irish Mirror - Home</title>
+		<link>https://www.irishmirror.ie</link>
+		<atom:link href="https://www.irishmirror.ie/?service=rss" rel="self" type="application/rss+xml"/>
+		<description>Rss feed from Irish Mirror</description>
+		<language>en-gb</language>
+		<copyright>Reach PLC 2024</copyright>
+		<pubDate>Mon, 23 Dec 2024 21:50:01 +0000</pubDate>
+		<category>Home</category>
+		<lastBuildDate>Mon, 23 Dec 2024 21:50:01 +0000</lastBuildDate>
+		<item>
+			<title>Desperate search for grieving dad from Ireland who vanished after missing flight to see kids</title>
+			<link>https://www.irishmirror.ie/news/irish-news/desperate-search-grieving-dad-ireland-34368883</link>
+			<guid>https://www.irishmirror.ie/news/irish-news/desperate-search-grieving-dad-ireland-34368883</guid>
+			<description>
+				<![CDATA[John Hardy, 37, was reported missing on December 18 after he missed his flight home from Benidorm to spend the festive season with his sons, aged 13 and six]]>
+			</description>
+			<pubDate>Mon, 23 Dec 2024 21:50:01 +0000</pubDate>
+			<author>news@irishmirror.ie ( Martin McCullough, Liam Doyle,  Adam Wareing)</author>
+			<category>Irish News</category>
+			<media:thumbnail url="https://i2-prod.irishmirror.ie/news/irish-news/article34368881.ece/ALTERNATES/s98/0_john-hardy.jpg" width="98" height="98"></media:thumbnail>
+			<enclosure url="https://i2-prod.irishmirror.ie/news/irish-news/article34368881.ece/ALTERNATES/s615/0_john-hardy.jpg" type="image/jpeg" length="754605"/>
+			<media:content url="https://i2-prod.irishmirror.ie/news/irish-news/article34368881.ece/ALTERNATES/s615/0_john-hardy.jpg" type="image/jpeg" width="615" height="409"/>
+			<media:keywords>
+				<![CDATA[Missing persons]]>
+			</media:keywords>
+		</item>
+		<item>
+			<title>U2 and Oasis concerts most searched for this year and next year, according to Google</title>
+			<link>https://www.irishmirror.ie/showbiz/u2-oasis-concerts-most-searched-34367316</link>
+			<guid>https://www.irishmirror.ie/showbiz/u2-oasis-concerts-most-searched-34367316</guid>
+			<description>
+				<![CDATA[New data analysed search volume data for concerts that took place in 2024, and concerts that are set to take place in 2025.]]>
+			</description>
+			<pubDate>Mon, 23 Dec 2024 21:19:39 +0000</pubDate>
+			<author>news@irishmirror.ie (Sandra Mallon)</author>
+			<category>Showbiz</category>
+			<media:thumbnail url="https://i2-prod.irishmirror.ie/incoming/article34289749.ece/ALTERNATES/s98/1_Noel-and-Liam-Gallagher.jpg" width="98" height="98"></media:thumbnail>
+			<enclosure url="https://i2-prod.irishmirror.ie/incoming/article34289749.ece/ALTERNATES/s615/1_Noel-and-Liam-Gallagher.jpg" type="image/jpeg" length="754605"/>
+			<media:content url="https://i2-prod.irishmirror.ie/incoming/article34289749.ece/ALTERNATES/s615/1_Noel-and-Liam-Gallagher.jpg" type="image/jpeg" width="615" height="409"/>
+			<media:keywords>
+				<![CDATA[U2, Oasis, Concert tickets, Google, Google Ireland]]>
+			</media:keywords>
+		</item>
+	</channel>
+</rss>
