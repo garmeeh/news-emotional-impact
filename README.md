@@ -2,7 +2,7 @@
 
 ![News Sentiment Analysis](news.gif)
 
-The code in this project is a result of an experiment that I kicked off in December 2024. The idea was to process news articles from various sources for the 3rd of 2025 (January 2025 to April 2025) and answer my questions is all news negative? To do this I first thought about using sentiment analysis but the results didn't quite match what I thought the article could make someone feel. So along side sentiment, I asked the LLM what **emotional impact** could this article have on the reader. I provided a list of options so that it was easier to compare articles over time.
+The code in this project is a result of an experiment that I kicked off in December 2024. The idea was to process news articles from various sources for the first 4 months of 2025 (January 2025 to April 2025) and answer my questions is all news negative? To do this I first thought about using sentiment analysis but the results didn't quite match what I thought the article could make someone feel. So along side sentiment, I asked the LLM what **emotional impact** could this article have on the reader. I provided a list of options so that it was easier to compare articles over time.
 
 Within this project we check the following with an LLM for each news article:
 
